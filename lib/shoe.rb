@@ -4,11 +4,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    if BRANDS.each do |type|
-      !type == brand
-      BRANDS << brand
-    end
-  end
+    BRANDS << brand
   end
 
   def cobble
